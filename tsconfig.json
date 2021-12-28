@@ -4,6 +4,8 @@
     "module": "commonjs",
     "lib": ["es2018", "esnext.asynciterable"],
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   }
 }

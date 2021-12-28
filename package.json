@@ -4,7 +4,7 @@
   "description": "boilerplate for user signup flow",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts"
+    "start": "ts-node-dev --respawn src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "@types/node": "^17.0.5",
     "nodemon": "^2.0.15",
     "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.4"
   }
 }
