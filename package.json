@@ -1,0 +1,26 @@
+{
+  "name": "user-base",
+  "version": "1.0.0",
+  "description": "boilerplate for user signup flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babeard/user-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babeard/user-base/issues"
+  },
+  "homepage": "https://github.com/babeard/user-base#readme",
+  "dependencies": {
+    "class-validator": "^0.13.2",
+    "graphql": "^16.2.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
