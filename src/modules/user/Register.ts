@@ -37,7 +37,7 @@ export class RegisterResolver {
 
     const confirmationUrl = await createConfirmationUrl(user.id);
 
-    sendEmail(email, confirmationUrl);
+    await sendEmail(email, confirmationUrl);
 
     return user;
   }
