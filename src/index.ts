@@ -22,7 +22,7 @@ const main = async () => {
     schema,
     introspection: true,
     plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
-    context: ({ req }) => ({ req }),
+    context: ({ req, res }) => ({ req, res }),
   });
 
   const app = Express();

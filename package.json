@@ -4,7 +4,7 @@
   "description": "boilerplate for user signup flow",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts"
+    "start": "ts-node-dev --files --respawn src/index.ts"
   },
   "repository": {
     "type": "git",
